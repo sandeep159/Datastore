@@ -71,4 +71,4 @@ execute the following file to run test on `datastore`
 
 ## Prerequisites
 
-Make sure you have `[python3](https://www.python.org/downloads/)` installed in your system 
+Make sure you have [python3](https://www.python.org/downloads/)  installed in your system 
