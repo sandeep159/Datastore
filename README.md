@@ -38,4 +38,24 @@ data_store = DataStore(file_location = `File_Path`)
 python
 data_store.create(key_name,value,time_to_live)
 ```
-   **NOTE :- recomending a JSON object for argument value, but any thing is acceptable, the time_to_live is an optional argument if not provided it will take 60**
+A new key-value pair can be added to data store `create()` function, it has 2 neccessary arguments key which should be a `string` capped at 32 chars and value wich should be a `JSON` object capped at `16KB` and a time_to_live property it is optional by default it will take 60, but if provided it will be evaluated as `seconds`, once the time_to_live for a key expired the key will be unavailable for other operations
+
+   
+* ### READ
+```
+python
+data_store.read(key)
+```
+
+A `read()` function takes one argument key, if key not found or expired an appropreate error message is displayed else the value will be returned
+
+
+*### DELETE
+```
+python
+data_store.delete(key)
+```
+
+A `delete()` function takes one argument key, if key not found or expired an appropreate error message is displayed else the corresponding data will be deleted from data store
+
+
