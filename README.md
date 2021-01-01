@@ -67,3 +67,8 @@ the `python` file `test_cases.py` has the test cases which cover all the basic o
 execute the following file to run test on `datastore`
 
 `test_cases.py`
+
+
+## Prerequisites
+
+Make sure you have `[python3](https://www.python.org/downloads/)` installed in your system 
