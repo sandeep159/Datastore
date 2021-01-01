@@ -14,14 +14,14 @@ A file-based key-value data store which support the basic Create, Read and Delet
 ## Getting Started
 
 * Clone the repository and cd into `Datastore`
-
-       ``` bash
-           git clone https://github.com/sandeep159/Datastore.git
-           cd Datastore
-       ```
+```
+bash
+git clone https://github.com/sandeep159/Datastore.git
+cd Datastore
+```
        
 * Include header file
-
-       ```python
-       from datastore import DataStore
-       ```
+```
+python
+from datastore import DataStore
+```
