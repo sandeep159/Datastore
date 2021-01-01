@@ -66,4 +66,4 @@ the `python` file `test_cases.py` has the test cases which cover all the basic o
 
 execute the following file to run test on `datastore`
 
-`python3 test_cases.py`
+`test_cases.py`
