@@ -25,3 +25,10 @@ cd Datastore
 python
 from datastore import DataStore
 ```
+
+* Initialise an object for datastore
+```
+python
+data_store = DataStore(file_location = `File_Path`)
+```
+   **NOTE :- it can be initialized using an operational filepath if not provided it will reliably create itself**
