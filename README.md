@@ -32,3 +32,10 @@ python
 data_store = DataStore(file_location = `File_Path`)
 ```
    **NOTE :- it can be initialized using an operational filepath if not provided it will reliably create itself**
+   
+* ### CREATE
+```
+python
+data_store.create(key_name,value,time_to_live)
+```
+   **NOTE :- recomending a JSON object for argument value, but any thing is acceptable, the time_to_live is an optional argument if not provided it will take 60**
