@@ -50,7 +50,7 @@ data_store.read(key)
 A `read()` function takes one argument key, if key not found or expired an appropreate error message is displayed else the value will be returned
 
 
-*### DELETE
+* ### DELETE
 ```
 python
 data_store.delete(key)
@@ -59,3 +59,11 @@ data_store.delete(key)
 A `delete()` function takes one argument key, if key not found or expired an appropreate error message is displayed else the corresponding data will be deleted from data store
 
 
+
+## Running the tests
+
+the `python` file `test_cases.py` has the test cases which cover all the basic operations of the `datastore.py` in expected an unexpected ways including multiple treads
+
+execute the following file to run test on `datastore`
+
+`python3 test_cases.py`
