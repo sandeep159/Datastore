@@ -164,7 +164,5 @@ class DataStore:
         return result
 
 
-# filestore = DataStore()
-# filestore.create("person123456789011121314151617181920212223242526272829",['sandeep','15-09-1999'],60)
-# filestore.create(123,['rahul','27-04-1999'],30)
+
 
